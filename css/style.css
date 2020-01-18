@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #d8d8d4;
+}
+
+.container {
+    width: 35vw;
+    height: 80vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.oggetto {
+    position: relative;
+    width: 90%;
+    height: 30%;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:2vh auto;
+
+}
+
+.uno {
+    background-image: url("../img/barbuda.jpg");
+    display: block;
+
+}
+
+.due {
+    background-image: url("../img/paris.jpg");
+    display: block;
+    margin
+}
+
+.tre {
+    background-image: url("../img/svalbard.jpg");
+    display: block;
+
+}
+
+.testo {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.overlay:hover {
+    display: none;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
